@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NtKhSXY82vFOtCdq+AeLoxV0aPlJmxBImMp5CA8Spbs=",
+  "Source": "TicToeAPI",
+  "BasePath": "_content/TicToeAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
