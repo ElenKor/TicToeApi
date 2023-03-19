@@ -84,7 +84,7 @@ Request URL https://localhost:7073/api/Games/6?positionFromNullToEight=1
 [Код реализации Models](https://github.com/ElenKor/TicToeApi/blob/main/Models/Game.cs)
 ### Описание полей базы данных
   - Id = id игры
-  - Board = игровое поле 
+  - Board = игровое поле с ходами игроков, в начале игры инициализированно нулями, далее X - ход 1 игрока, O - ход 2 игрока, 0 - пустое поле, свободное для хода
   - CurrentPlayer = игрок, совершающий ход
   - IsOver = статус игры 
   - Winner = победитель текущей игры (1 - игрок X, 2 - игрок O, 0 - если игра завершена, то ничья)
